@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 9.4</title>
+    <script>
+
+    </script>
+</head>
+<body>
+
+    <h1>Menghitung Dua Jumlah Bilangan</h1>
+    <form>
+        Angka 1 : <input type="number" id="bilangan1" onchange="jumlah()" />
+        <br>
+        +
+        <br>
+        Angka 2 : <input type="number" id="bilangan2" onchange="jumlah()" />
+        <br>
+        <input type="button" value="math" onclick="parkir()">
+        <br>
+        Jumlah : <input type="text" id="hasil">
+    </form>
+   
+   <script>
+    function jumlah() {
+    let bilangan_1 = document.getElementById("bilangan1").value;
+    let bilangan_2 = document.getElementById("bilangan2").value;
+    let hasil_var = parseInt(bilangan_1) + parseInt(bilangan_2);
+
+    document.getElementById("hasil jumlah").value;
+}
+</script>
+</body>
+</html>
