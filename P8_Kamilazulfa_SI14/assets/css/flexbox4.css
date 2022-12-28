@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.nyamping{
+    
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+nav{
+    display: flex;
+    flex-direction:row ;
+    width: 20%;
+    background-color: aqua;
+    height: 100%;
+}
+
+header, footer{
+    background-color: rgb(255, 239, 100);
+    padding: 15px;
+    height: 15vh;
+}
+
+main{
+    display: flex;
+    flex: 1;
+}
+
+main article{
+    background-color: white;
+    flex: 3;
+}
+
+ aside{
+    flex: 2;
+}
+
+
+
+main aside{
+    background: pink;
+    order: 2;
+}
+
+header, footer, article, nav, aside{
+    padding: 1em;
+}
